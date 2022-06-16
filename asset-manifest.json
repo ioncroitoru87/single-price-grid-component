@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ioncroitoru87.github.io/static/css/main.0a78baa8.css",
-    "main.js": "/ioncroitoru87.github.io/static/js/main.2fe25fc3.js",
-    "index.html": "/ioncroitoru87.github.io/index.html",
-    "main.0a78baa8.css.map": "/ioncroitoru87.github.io/static/css/main.0a78baa8.css.map",
-    "main.2fe25fc3.js.map": "/ioncroitoru87.github.io/static/js/main.2fe25fc3.js.map"
+    "main.css": "/single-price-grid-component/static/css/main.0a78baa8.css",
+    "main.js": "/single-price-grid-component/static/js/main.2fe25fc3.js",
+    "index.html": "/single-price-grid-component/index.html",
+    "main.0a78baa8.css.map": "/single-price-grid-component/static/css/main.0a78baa8.css.map",
+    "main.2fe25fc3.js.map": "/single-price-grid-component/static/js/main.2fe25fc3.js.map"
   },
   "entrypoints": [
     "static/css/main.0a78baa8.css",
