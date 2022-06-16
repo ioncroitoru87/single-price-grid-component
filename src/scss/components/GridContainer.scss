@@ -1,0 +1,27 @@
+@use "../util/" as *;
+
+.grid__container {
+  display: grid;
+
+  .item-1 {
+    background-color: #fff;
+
+    h2 {
+      color: var(--brightYellow);
+    }
+
+    p {
+      color: var(--grayishBlue);
+    }
+  }
+  .item-2 {
+    background-color: var(--cyan);
+  }
+  .item-3 {
+    background-color: #0b5e5c;
+  }
+
+  @include breakpoint(medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,48 @@
+@use "../util/" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Karla", sans-serif;
+  font-size: rem(16);
+}
+
+button {
+  display: block;
+  width: 100%;
+  background-color: var(--brightYellow);
+  color: #fff;
+  font-size: rem(16);
+  text-align: center;
+  font-weight: 700;
+  padding: rem(15);
+  border: none;
+  outline: none;
+  margin-top: rem(41);
+  cursor: pointer;
+}
+
+.container {
+  @include breakpoint(medium) {
+    width: 95%;
+    max-width: 635px;
+    margin: 0 auto;
+  }
+}
+
+.item {
+  padding: rem(24);
+
+  @include breakpoint(medium) {
+    padding: rem(40);
+  }
+}
+
+.item-1 {
+  grid-column: 1 / -1;
+}
